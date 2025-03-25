@@ -1,0 +1,19 @@
+h1{
+    color: red;
+    background-color: blue;
+    font-size: 50px;
+
+  text-decoration: underline;
+
+}
+body{
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+p{
+   
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
