@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+h1{
+    color: #fffcfc;
+    font-size: 40px;
+}
+
+body{
+    background-color: #080f50;
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+img {
+    height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+  box-shadow: 0 0 100px #fffcfc;
+}
+header{
+height: 20%;
+padding: 20px;
+}
+
+main{
+ height: 80%;
+
+}
+
+footer{
+height: 20%;
+
+}
+
+section{
+    padding: 20px;
+    margin: 0 0 20px 0;
+   
+}
+
+p{
+    font-size: 25px;
+    font-style: italic;
+  color: #fdfffd;
+  background-color: #37a2d7;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 0 3px #fffcfc;
+}
+h2{
+     text-shadow: 0 0 10px #fffcfc;
+    color: #ffffff;
+    font-size: 40px;
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+
+.secction-habilidades{
+ background-color: #37a2d7;
+ border-radius: 20px;
+ width: 30%;
+margin-left: 35%;
+
+}
+
+
+li{
+    color: #081350;
+    font-size: 30px;
+    list-style: none;
+    margin-bottom: 10px;
+   
+}
