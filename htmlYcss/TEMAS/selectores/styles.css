@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+
+div{
+   border: 1px solid #000;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+ margin-bottom: 20px
+}
+
+.div-item{
+    background-color: yellow;
+}
+
+#div-importante{
+    background-color: red;
+}
+
+
+
+body > div {
+    background-color: black; 
+ }
+ 
+
+body div {
+    background-color: aqua;
+}
+
+div:nth-child(2){
+    background-color: blue;
+}
+
+div:nth-last-child(4){
+    background-color: blueviolet;
+}
+
+div,body,input,textarea,section{
+  background-color: aqua;
+}
+
+input[class="inputText"]{
+   padding: 20px;
+}
