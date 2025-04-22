@@ -1,9 +1,20 @@
-const Libro = {
-    Genero: "Terror",
-    VueltaAlaTierra: "1986",
-    Autor:"Stephen King",
-    Titulo: "It"
+
+const colores = {}
+
+const telefono = {
+marcaDeTelefono: 'motorola',
+almacenamiento: '8gb',
+sistemaOperativo: 'android',
+tamaño: "6 pulgadas",
+color: colores
 }
 
 
-console.log(Libro)
+const tienda = {
+    nombre:'tienda de celulares',
+    calle: 'uspallata 640',
+    celularesAlaVenta: [telefono]
+}
+
+
+
