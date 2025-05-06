@@ -1,10 +1,9 @@
-const numeros = [1,2,3,4,5]
+const libros = [{titulu:'luis'},{titulo:'alberto'}]
 
- let numerosSumados = 0;
 
-numeros.forEach(item => {
-    
-numerosSumados += item;
+libros.forEach((item) => {
+  const li = document.createElement('li')
+  li.innerText = 'alberto';
+  listita.appendCHild(li)
+})
 
-});
-console.log(numerosSumados);

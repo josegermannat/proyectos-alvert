@@ -15,3 +15,6 @@ console.log(frutas) // ['manzana', 'banana', 'sandía']
 
 //👉 pop() — quita el último
 frutas.pop() // ['manzana', 'kiwi', 'pera']
+
+
+
