@@ -16,6 +16,8 @@ function grados (Temperatura){
     else if(Temperatura>=21 && Temperatura<=30){console.log("Normal en temperatura")}
     else if(Temperatura>=31 && Temperatura<=40){console.log("Hace calor")}
     else if(Temperatura>=40){console.log("Hace mucho calor")}
+    console.log("pene")
+    console.log("miembro")
     
 }
 const GradosCentigrados = 
