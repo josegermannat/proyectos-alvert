@@ -1,5 +1,22 @@
-let frutas = ['manzana', 'pera', 'banana']
+const frutas = [1, 2, 3, 4]
 
+
+ const arrayModificado = frutas.map( (elemento) => {
+   return elemento + 1
+ });
+
+
+console.log(arrayModificado)
+
+
+
+
+
+
+
+
+
+/*
 //push agrega un nuevo elemento al final del array
 frutas.push('sandía')
 console.log(frutas) // ['manzana', 'pera', 'banana', 'sandía']
@@ -17,4 +34,6 @@ console.log(frutas) // ['manzana', 'banana', 'sandía']
 frutas.pop() // ['manzana', 'kiwi', 'pera']
 
 
+
+*/
 

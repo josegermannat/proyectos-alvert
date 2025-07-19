@@ -1,4 +1,4 @@
-const libros = [{titulu:'luis'},{titulo:'alberto'}]
+const libros = [{nombre:'luis',apellido:'gilberto'},{nombre:'alberto'}]
 
 
 libros.forEach((item) => {
@@ -6,4 +6,5 @@ libros.forEach((item) => {
   li.innerText = 'alberto';
   listita.appendCHild(li)
 })
+
 

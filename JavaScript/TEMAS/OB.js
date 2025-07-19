@@ -11,7 +11,7 @@ color: colores
 
 
 const tienda = {
-    nombre:'tienda de celulares',
+    pepe:'tienda de celulares',
     calle: 'uspallata 640',
     celularesAlaVenta: [telefono]
 }
