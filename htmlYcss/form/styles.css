@@ -1,0 +1,114 @@
+/* Importación de fuente (puedes cambiarla si usas otra) */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Fredoka', sans-serif;
+  background: linear-gradient(to right, #eafff5, #c3ffd5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.flashy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.container-flashy-icon{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.flashy__card {
+  background-color: #00cc66;
+  padding: 3rem 2rem 1.5rem 2rem;
+  border-radius: 20px;
+  text-align: center;
+  height: 650px;
+  width: 400px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.447);
+}
+
+.flashy__icon {
+  background: #00b359;
+  border-radius: 40%;
+  width: 70%;
+  height: 100%;
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flashy__image {
+width: 250px;
+ position: relative;
+ right: 5px;
+}
+.flashy-text {
+height: 45%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 5px;
+}
+.flashy__title {
+  color: white;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.flashy__subtitle {
+  color: #d9fbe9;
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.flashy__buttons {
+    height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 20px;
+}
+
+.flashy__button {
+    height: 65%;
+ width: 50%;
+  padding: 0.75rem;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.flashy__button--outline {
+  background: transparent;
+  border: 2px dashed white;
+  color: white;
+}
+
+.flashy__button--filled {
+  background: white;
+  border: none;
+  color: #00cc66;
+  box-shadow: 0 5px 0 #00994d;
+}
+
+.flashy__button:hover {
+  opacity: 0.9;
+}
