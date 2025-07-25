@@ -41,7 +41,7 @@ class Animal {
 const perro = new Perro('bull dog','8kg','80cm','perro','Animal Domestico','true')
 const perro2 = new Animal('pudel','8kg','80cm','perro','Animal Domestico')
 
-perro.ladrar(2)
+perro.ladrar(10)
 
 
 
