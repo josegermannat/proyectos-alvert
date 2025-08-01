@@ -1,0 +1,7 @@
+function pitoGlobal(){
+
+    function pitoLocal(){
+
+        
+    }
+}

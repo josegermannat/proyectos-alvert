@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cofla el problematico</title>
+</head>
+<body>
+    <script>
+        /*A) Tres chicos de 23 años perfectamente normales entran a una heladería a comprar un helado, pero hay un problema: los precios no están al lado de cada estante con su respectivo helado.
+
+Ellos quieren comprar el helado más caro que puedan con la plata que 
+tienen, así que… veamos cómo podemos ayudarlos.
+Roberto tiene $1.5 USD
+Pedro tiene $1.7 USD
+Cofla tiene $3 USD
+
+Los precios de helados son los siguientes:
+Palito de helado de agua: $0.6 USD
+Palito de helado de crema: $1 USD
+Bombón helado marca Heladix: $1.6 USD
+Bombón helado marca Heladovich: $1.7 USD
+Bombón helado marca Helardo: $1.8 USD
+Potecito de helado con confites: $2.9 USD
+Pote de 1/4 KG: $2.9 USD
+
+CREAR SOLUCIONES:
+Pedirles que ingresen el monto que tienen y 
+mostrarles el helado más caro que pueden comprar.
+Si hay 2 o más con el mismo precio, mostrar ambos.
+Cofla quiere saber cuánto es el vuelto.*/
+alert("Vas a Ingresar cuanto dinero tiene cada persona. ¡SOLO NUMEROS!");
+let dineroRoberto = parseFloat(prompt("Cuanto dinero tienes Roberto"));
+let dineroPedro = parseFloat(prompt("Cuanto dinero tienes Pedro"));
+let dineroCofla = parseFloat(prompt("Cuanto dinero tienes Cofla"));
+
+
+if(dineroRoberto >= 0.6 && dineroRoberto < 1){
+alert("Roberto, comprate el helado de agua");    
+}
+
+else if(dineroRoberto >= 1 && dineroRoberto < 1.6){
+alert("Roberto, comprate el helado de crema");    
+
+}
+else if(dineroRoberto >= 1.6 && dineroRoberto < 1.7 ){
+alert("Roberto, comprate el helado marca Heladix");    
+
+}
+else if(dineroRoberto >= 1.7 && dineroRoberto < 1.8){
+alert("Roberto, comprate el helado marca Heladovich");    
+
+}
+else if(dineroRoberto >= 1.8 && dineroRoberto < 2.9){
+alert("Roberto, comprate el helado marca helardo");    
+
+}
+else if(dineroRoberto >= 2.9){
+alert("Roberto, comprate el potecito de helado con confites o el Pote de 1/4 KG");    
+
+}
+else{
+    alert("Lo siento pobre de mierda, no te alcanza para ningun helado");
+};
+
+if(dineroPedro >= 0.6 && dineroPedro < 1){
+alert("Pedro, comprate el helado de agua");    
+}
+
+else if(dineroPedro >= 1 && dineroPedro < 1.6){
+alert("Pedro, comprate el helado de crema");    
+
+}
+else if(dineroPedro >= 1.6 && dineroPedro < 1.7 ){
+alert("Pedro, comprate el helado marca Heladix");    
+
+}
+else if(dineroPedro >= 1.7 && dineroPedro < 1.8){
+alert("Pedro, comprate el helado marca Heladovich");    
+
+}
+else if(dineroPedro >= 1.8 && dineroPedro < 2.9){
+alert("Pedro, comprate el helado marca helardo");    
+
+}
+else if(dineroPedro >= 2.9){
+alert("Pedro, comprate el potecito de helado con confites o el Pote de 1/4 KG");    
+
+}
+else{
+    alert("Lo siento pobre de mierda, no te alcanza para ningun helado");
+};
+
+if(dineroCofla >= 0.6 && dineroCofla < 1){
+alert("Cofla, comprate el helado de agua");  
+alert(" Cofla tu vuelto es de " + (dineroCofla - 0.6));  
+}
+
+else if(dineroCofla >= 1 && dineroCofla < 1.6){
+alert("Cofla, comprate el helado de crema");    
+alert(" Cofla tu vuelto es de " + (dineroCofla - 1).toFixed(2));  
+
+}
+else if(dineroCofla >= 1.6 && dineroCofla < 1.7 ){
+alert("Cofla, comprate el helado marca Heladix");    
+alert(" Cofla tu vuelto es de " + (dineroCofla - 1.6).toFixed(2));  
+
+}
+else if(dineroCofla >= 1.7 && dineroCofla < 1.8){
+alert("Cofla, comprate el helado marca Heladovich");    
+alert(" Cofla tu vuelto es de " + (dineroCofla - 1.7).toFixed(2));  
+
+}
+else if(dineroCofla >= 1.8 && dineroCofla < 2.9){
+alert("Cofla, comprate el helado marca helardo");    
+alert(" Cofla tu vuelto es de " + (dineroCofla - 1.8).toFixed(2));  
+
+}
+else if(dineroCofla >= 2.9){
+alert("Cofla, comprate el potecito de helado con confites o el Pote de 1/4 KG");    
+alert(" Cofla tu vuelto es de " + (dineroCofla - 2.9).toFixed(2));  
+
+}
+else{
+    alert("Lo siento pobre de mierda, no te alcanza para ningun helado, anda a trabajar perro asqueroso, flojo");
+};
+
+    </script>
+</body>
+</html>

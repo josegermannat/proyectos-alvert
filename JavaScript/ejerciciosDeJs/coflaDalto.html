@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cofla el problematico</title>
+</head>
+<body>
+    <script>
+        /*A) Tres chicos de 23 años perfectamente normales entran a una heladería a comprar un helado, pero hay un problema: los precios no están al lado de cada estante con su respectivo helado.
+
+Ellos quieren comprar el helado más caro que puedan con la plata que 
+tienen, así que… veamos cómo podemos ayudarlos.
+Roberto tiene $1.5 USD
+Pedro tiene $1.7 USD
+Cofla tiene $3 USD
+
+Los precios de helados son los siguientes:
+Palito de helado de agua: $0.6 USD
+Palito de helado de crema: $1 USD
+Bombón helado marca Heladix: $1.6 USD
+Bombón helado marca Heladovich: $1.7 USD
+Bombón helado marca Helardo: $1.8 USD
+Potecito de helado con confites: $2.9 USD
+Pote de 1/4 KG: $2.9 USD
+
+CREAR SOLUCIONES:
+Pedirles que ingresen el monto que tienen y 
+mostrarles el helado más caro que pueden comprar.
+Si hay 2 o más con el mismo precio, mostrar ambos.
+Cofla quiere saber cuánto es el vuelto.*/
+const definirCompra = (n) => {
+  let din = prompt(`Dinero de ${n}`);
+  if (din >= 0.6 && din < 1) return (`${n}: helado de agua`);
+  if (din >= 1 && din < 1.6) return (`${n}: helado de crema`);
+  if (din >= 1.6 && din < 1.7) return (`${n}: helado de heladix`);
+  if (din >= 1.7 && din < 1.8) return (`${n}: helado de heladovich`);
+  if (din >= 1.8 && din < 2.9) return (`${n}: helado de helardo`);
+  if (din >= 2.9) return (`${n}: helado de confites o pote de 1/4kg`);
+  else return (`${n}: No te alcanza para ningun helado pobre de mierda`);
+}
+
+console.log(definirCompra("Cofla"));
+console.log(definirCompra("Pedro"));
+console.log(definirCompra("Roberto"));
+
+    </script>
+</body>
+</html>

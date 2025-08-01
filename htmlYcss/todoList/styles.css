@@ -1,0 +1,11 @@
+.completada{
+     cursor: pointer;
+     text-decoration: line-through;
+  color: rgb(7, 241, 66);
+ 
+}
+
+.botonEntrada{
+    cursor: pointer;
+    opacity: 0.9;
+}

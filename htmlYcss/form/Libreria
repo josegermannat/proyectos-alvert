@@ -1,0 +1,20 @@
+const libreria = [];
+
+class newLibro{
+constructor(precio, nombre, genero){
+this.precio = "$" + precio;
+this.nombre = nombre;
+this.genero =  genero;
+
+}    
+}
+
+const libroIt = new newLibro(52000,"It (Eso)","Horror");
+
+libreria.push(libroIt);
+
+console.log(libreria.map(libro => ({
+  precio: libro.precio,
+  nombre: libro.nombre,
+  genero: libro.genero
+})));
