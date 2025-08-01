@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin-bottom: 30px;
+
+  
+}
+
+.box--importante{
+ animation: mover 2s infinite alternate;
+}
+
+@keyframes mover {
+    from{
+    
+    }
+    to{
+       
+        transform: translateX(200px);
+    }
+}
+
+#Button {
+ width:300px;
+ height: 100px;
+ margin-bottom: 10px;
+ font-size: 2rem;
+ padding: 10px;
+ background-color: transparent;
+ border-radius: 8px;
+ border: 1px solid #ccc;
+ color: rgb(208, 245, 234);
+ cursor: pointer;
+}
+
+h1{
+    font-size: 3rem;
+    color: aqua;
+}
